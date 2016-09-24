@@ -1,8 +1,19 @@
-.navbar-blue {
-    background-color: #1979D0;
-    border-color: #1462A9;
+body {
+  background: #E7E8EB;
 }
 
+.navbar-blue {
+    background-color: #E7E8EB;
+    border-color: #E7E8EB;
+    color : grey;
+}
+.well, .pkiwebsdk-container {
+     -webkit-box-shadow:none !important;
+    background-color: #E7E8EB !important;
+    border:none !important;
+    border-top:none !important;
+    padding-left: 0px !important;
+}
 .navbar-blue .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #FFF;
     background-color: #00458E;
@@ -30,4 +41,20 @@ footer {
 .footer-text {
     color: #a9a9a9;
     text-decoration: none;
+}
+
+.pkiwebsdk-get-p12-uploadfile {
+  line-height:28px !important;
+  padding-left:3px !important;
+  padding-right:3px !important;
+}
+
+.pkiwebsdk-fileupload {
+  margin:5px 0px 5px 0px !important;
+}
+
+input {
+  line-height:24px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
